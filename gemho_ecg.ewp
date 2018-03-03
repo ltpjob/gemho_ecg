@@ -336,6 +336,8 @@
                     <state>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</state>
                     <state>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc</state>
                     <state>$PROJ_DIR$\inc</state>
+                    <state>$PROJ_DIR$\src\Ethernet</state>
+                    <state>$PROJ_DIR$\src\Ethernet\W5500</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2117,6 +2119,9 @@
             <name>$PROJ_DIR$\src\main.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\src\spi.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\inc\stm32f10x_conf.h</name>
         </file>
         <file>
@@ -2124,6 +2129,18 @@
         </file>
         <file>
             <name>$PROJ_DIR$\inc\stm32f10x_it.h</name>
+        </file>
+    </group>
+    <group>
+        <name>W5500</name>
+        <file>
+            <name>$PROJ_DIR$\src\Ethernet\socket.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\Ethernet\W5500\w5500.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\Ethernet\wizchip_conf.c</name>
         </file>
     </group>
 </project>
